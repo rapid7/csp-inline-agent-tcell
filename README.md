@@ -1,0 +1,1 @@
+# csp-inline-agent
