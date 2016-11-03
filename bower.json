@@ -1,0 +1,22 @@
+{
+  "name": "jsCSPAgent",
+  "version": "0.9",
+  "ignore": [
+    "lib",
+    "test",
+    "spec",
+    "src",
+    "node_modules",
+    "Gruntfile.js",
+    "SpecRunner.html",
+    "package.json",
+    "bower.json",
+    ".travis.yml",
+    ".gitignore"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-jquery": "~2.1.0",
+    "jasmine": "~2.2.1"
+  }
+}

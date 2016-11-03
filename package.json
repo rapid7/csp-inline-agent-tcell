@@ -1,0 +1,51 @@
+{
+  "name": "jsCSPAgent",
+  "version": "0.9",
+  "title": "tCell Javascript-CSP Agent",
+  "homepage": "https://github.com/tcellio/js-csp-agent",
+  "description": "Assists in tracking nonces & hashes of inline scripts",
+  "author": {
+    "name": "Michael Feiertag",
+    "url": "https://tcell.io",
+    "email": "m@tcell.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcellio/js-csp-agent"
+  },
+  "keywords": [
+    "javascript",
+    "library"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "BSD 3-Clause License",
+      "url": "https://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.9.0",
+    "grunt-notify": "^0.4.5",
+    "grunt-preprocess": "^4.1.0",
+    "matchdep": "~0.1.2",
+    "grunt-karma": "~0.8.3",
+    "karma": "~0.12.0",
+    "karma-jasmine": "~0.2.0",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-jasmine-jquery": "~0.1.1",
+    "karma-jasmine-ajax": "~0.1.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-anonymous": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.17",
+    "npm": ">=1.3.8"
+  }
+}
