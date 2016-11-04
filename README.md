@@ -8,9 +8,9 @@
 
 # Building
 
-`> grunt`
+`> npm install && grunt`
 
-Which will build a debug, test, and production version.
+Which will build a debug, test, and production version in the dist/ directory.
 
 `> grunt test`
 
