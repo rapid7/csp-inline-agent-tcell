@@ -3,7 +3,11 @@
 # Use
 
 ``` html
-<script src="js-csp-agent.js" report-to="https://example.com/csp"></script>
+<html>
+ <head>
+    <script src="js-csp-agent.js" report-to="https://example.com/csp"></script>
+    ...
+ </head>
 ```
 
 # Building
@@ -16,7 +20,9 @@ Which will build a debug, test, and production version in the dist/ directory.
 
 Will run tests
 
-# Reports 
+# Report Examples 
+
+An initial report will be sent with current scripts, then any new scripts or event-handlers are added to the DOM will be sent as additional events. Events are wrapped in a JSON structure that will also communicate  a request id, session id (localstorage), documentUri, and referrer.
 
 ```json
 {
