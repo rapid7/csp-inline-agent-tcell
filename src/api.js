@@ -34,11 +34,6 @@ var TCellApi = (function () {
   var TCELL_AGENT_VERSION = '/* @echo TCELL_AGENT_VERSION */'; // Set in package.json, added in Gruntfile.js
   var TCELL_API_VERSION = 1;
 
-  function addTCellHeaders(xhr, apiKey) {
-    // xhr.setRequestHeader('Authorization', 'Bearer ' + apiKey);
-    xhr.setRequestHeader('TCellAgent', 'JSAgent ' + TCELL_AGENT_VERSION);
-  }
-
   var sendJSEvents = function(config, wrappedEvents, responseCallback) {
 
     if (!config || config.postUrl === null) {
@@ -54,7 +49,6 @@ var TCellApi = (function () {
     TCellSafeguards.xhrOpen.call(xhr, 'POST', config.postUrl, true);
 
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
-    addTCellHeaders(xhr, config.apiKey);
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
