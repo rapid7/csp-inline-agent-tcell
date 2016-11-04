@@ -1,6 +1,6 @@
 {
   "name": "jsCSPAgent",
-  "version": "0.9",
+  "version": "0.9.0",
   "title": "tCell Javascript-CSP Agent",
   "homepage": "https://github.com/tcellio/js-csp-agent",
   "description": "Assists in tracking nonces & hashes of inline scripts",
